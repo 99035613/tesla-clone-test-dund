@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    font-family: Montserrat;
+    color: white;
+
+}
+
+header {
+    height: 56px;
+    display: flex;
+    align-items: center;
+    gap: 575px;
+    position: fixed;
+    width: 100%;
+
+}
+
+.menu-item {
+    text-decoration: none;
+    color: white;
+    margin-left: 32px;
+}
+
+button {
+    height: 40px;
+    width: 264px;
+    border: none;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+}
+.desc {
+    margin-top: 128px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#section-1 {
+    background-image: url(./cb6af393851dc03dd35d09417c2ceadd.jpeg);
+
+}
+
+#section-2 {
+    background-image: url(./model-3.png);
+}
+
+#section-3 {
+    background-image: url(./d0d912a18fa6ec4f1888f100bc845c36.png);
+}
+#section-4 {
+    background-image: url(./bd6a0fdc156a53b211754b905057b7df.png);
+}
+#section-5 {
+    background-image: url(./a13f230d90c69b3806b4b679cf16c9ed.png);
+}
+#section-6 {
+position: relative;
+}
+.video {
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+}
+.video source {
+    width: 100%;
+    height: 100%;
+}
+.absolute {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+#section-7 {
+    background-image: url(./a09b8cb46f83a23604fb332cca93df72.png);
+}
+#section-8 {
+    background-image: url(./c1749c353ea58a621c8c633b3efef56e.png);
+}
+#section-9 {
+    background-image: url(./442a5b4ec8bdd443fc0054bf3f323778.png);
+}
+#section-10 {
+    background-image: url(./afb989857277aee6919710d8754a76f2.png);
+}
+
+#btn-white {
+    background: rgba(244, 244, 244, 0.8);
+    backdrop-filter: blur(4px);
+    background-color: #f4f4f4f4;
+    color: #000;
+    align-items: center;
+}
+
+#btn-black {
+    background: rgba(23, 26, 32, 0.65);
+    backdrop-filter: blur(4px);
+    color: #FFFFFF;
+}
+
+
+
+.desc h1 {
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.desc h6 {}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+
+.btn-container {
+    display: flex;
+    gap: 24px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
